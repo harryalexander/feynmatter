@@ -1,0 +1,15 @@
+{
+    "name": "Feynmatter",
+    "version": "0.1.0",
+    "description": "Feynmatter makes The Feynman Lectures more readable",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://*.feynmanlectures.caltech.edu/*.html"],
+            "css": ["format.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        "format.css"
+    ]
+}
