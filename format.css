@@ -21,3 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 .floating-menu {
     display: none !important;
 }
+
+.main .p {
+    text-indent: 0 !important;
+}
