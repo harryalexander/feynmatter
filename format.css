@@ -25,3 +25,15 @@ h1, h2, h3, h4, h5, h6 {
 .main .p {
     text-indent: 0 !important;
 }
+
+.chapter-title {
+    font-size: 1em !important;
+}
+
+.chapter-title .tag {
+    display: inline !important;
+}
+
+.chapter-title .tag a {
+    display: none;
+}
