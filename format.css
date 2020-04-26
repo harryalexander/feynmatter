@@ -1,5 +1,7 @@
 @import url('https://rsms.me/inter/inter.css');
-
+::selection {
+    background: #FFFF99;
+}
 html, body {
     margin: 0;
     padding: 0;
